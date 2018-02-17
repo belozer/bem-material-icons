@@ -18,7 +18,6 @@
   },
   "scripts": {
     "start": "enb server",
-    "postinstall": "npm run deps",
     "deps": "bower i --allow-root",
     "generate": "node generate-icons.js"
   },
